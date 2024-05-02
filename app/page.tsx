@@ -39,7 +39,7 @@ export default function Component() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gray-900 px-4 py-8 text-white">
       <div className="space-y-4 text-center">
-        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Đếm Nguợc </h1>
+        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Countdown</h1>
         <p className="text-lg text-gray-400 md:text-xl">Ngày Tuyển Sinh vào 10 Hải Phòng</p>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 rounded-lg bg-gray-800 p-6 sm:p-8 md:p-10">
           <div className="flex flex-col items-center">
@@ -59,6 +59,7 @@ export default function Component() {
             <span className="text-sm text-gray-400">Seconds</span>
           </div>
         </div>
+        <p className="text-sm text-gray-400">Created by Manh Minh - Wish me luck in test </p>
       </div>
     </main>
   );
